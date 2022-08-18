@@ -81,15 +81,15 @@ footer i{
 }
 
 .subir {
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(20, 20, 176);
+    color: white;
     position: fixed;
     bottom: 40px;
     right: 35px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     border-radius: 50%;
     border-color: black;
 }
@@ -125,6 +125,13 @@ footer i{
     padding-top: 50px;
 }
 
+.presentacion p:hover{
+    scale: calc(1.1);
+    color: red;
+    font-weight: bold;
+    transition: .7s;
+}
+
 /* SKILLS */
 .skills{
     text-align: center;
@@ -150,8 +157,6 @@ footer i{
     transition: .7s;
 }
 
-
-
 /* SERVICES */
 .services{
     text-align: center;
@@ -172,6 +177,11 @@ footer i{
 
 .services-icon{
     height: 100px;
+}
+
+.services-icon:hover{
+    scale: calc(1.1);
+    transition: .7s;
 }
 
 .servicesList{
@@ -274,6 +284,11 @@ footer i{
 
 .contact-icon{
     height: 100px;
+}
+
+.contact-icon:hover{
+    scale: calc(1.1);
+    transition: .7s;
 }
 
 .contact-icons{
