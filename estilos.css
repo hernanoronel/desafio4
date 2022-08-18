@@ -59,9 +59,9 @@ html {
 }
 
 .barra a:hover {
-    background-color: cornflowerblue;
+    background-color: rgba(24, 24, 145, 0.613);
     border-radius: 4px;
-    transition: .5s;
+    transition: .4s;
 }
 
 footer{
@@ -111,6 +111,11 @@ footer i{
     box-shadow: 3px 3px 5px black;
 }
 
+.fotoperfil:hover{
+    scale: calc(1.1);
+    transition: .7s;
+}
+
 .presentacion{
     padding: 50px 20px;
     text-align: center;
@@ -138,8 +143,14 @@ footer i{
 .html, .css{
     height: 150px;
     padding: 10px;
-    box-shadow: 2px 2px 5px black;
 }
+
+.css:hover, .html:hover{
+    scale: calc(1.1);
+    transition: .7s;
+}
+
+
 
 /* SERVICES */
 .services{
