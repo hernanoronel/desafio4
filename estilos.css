@@ -18,6 +18,12 @@ body{
 }
 
 /* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .navbar-brand{
     font-size: 40px;
     color: white;
@@ -25,13 +31,15 @@ body{
 }
 
 .navbar-nav{
-    font-size: 20px;
+    font-size: 25px;
+    float: right;
 }
 
 /* MAIN */
 .fotoperfil{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 120px;
+
 }
 
 .rounded-circle{
@@ -75,18 +83,20 @@ body{
 /* SKILLS */
 .skills-main{
     text-align: center;
-    font-size: 20px;
-    background-color: rgba(224, 224, 224, 0.435);
+    font-size: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 .skills-tittle h2{
     font-size: 50px;
-    text-shadow: 1px 1px 3px white;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .skills-tittle p{
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 
 .skills{
@@ -98,20 +108,27 @@ body{
     max-width: 150px;
 }
 
+.skills-item p{
+    font-size: 20px;
+    color: white;
+}
+
 /* SERVICES */
 .services-main{
     text-align: center;
-    font-size: 20px;
+    font-size: 80%;;
     padding: 20px;
 }
 
 .services-tittle h2{
     font-size: 50px;
-    text-shadow: 1px 1px 3px white;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .services-tittle p{
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 
 .services-list{
@@ -123,21 +140,34 @@ body{
     padding: 20px;
 }
 
+.services-logo h3{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.services-logo p{
+    color: white;
+    font-size: 20px;
+}
+
 /* PORTFOLIO */
 .portfolio-main{
     text-align: center;
     font-size: 80%;
-    background-color: rgba(224, 224, 224, 0.435);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 .portfolio-main h2{
-    font-size: 2.5em;
-    text-shadow: 1px 1px 3px white;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .portfolio-main p{
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 
 .carousel-inner{
@@ -149,6 +179,11 @@ body{
 }
 
 /* CONTACT */
+.contact{
+    text-align: center;
+    font-size: 80%;
+    padding: 20px;
+}
 .contact h2{
     font-size: 2.5em;
     text-shadow: 1px 1px 3px white;
@@ -168,26 +203,8 @@ body{
 }
 
 /* FOOTER */
-.footer{
-    font-size: 25px;
-    background-color: rgba(0, 0, 0, 0.248);
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-.redes{
-    font-size: 50px;
-    letter-spacing: 20px;
-}
-
-.redes i{
-    color: white;
-}
-
-
-/* footer{
-    background-color: black;
+footer{
+    background-color: rgba(0, 0, 0, 0.345);
     color: white;
     font-size: 25px;
     text-align: center;
@@ -198,14 +215,14 @@ body{
 footer i{
     letter-spacing: 20px;
     font-size: 40px;
-    color: cornflowerblue;
+    color: rgb(255, 255, 255);
     padding-top: 20px;
 }
 
 .subir {
     height: 50px;
     width: 50px;
-    background-color: rgb(20, 20, 176);
+    background-color: rgba(128, 128, 128, 0.526);
     color: white;
     position: fixed;
     bottom: 40px;
@@ -214,378 +231,4 @@ footer i{
     line-height: 50px;
     border-radius: 50%;
     border-color: black;
-} */
-
-/* MAIN
-.principal{
-    font-size: 30px;
-    padding-top: 10rem;
-    height: fit-content;
-}
-
-.foto{
-    text-align: center;
-}
-.fotoperfil{
-    height: 350px;
-    border: 2px solid black;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px black;
-}
-
-.fotoperfil:hover{
-    scale: calc(1.1);
-    transition: .7s;
-}
-
-.presentacion{
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.presentacion p{
-    padding-top: 50px;
-}
-
-.presentacion p:hover{
-    scale: calc(1.1);
-    color: red;
-    font-weight: bold;
-    transition: .7s;
-} */
-
-/* SKILLS
-.skills{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    text-shadow: 2px 2px 5px black;
-    background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
-    padding: 50px;
-}
-
-.skills-logo{
-    height: 300px;
-    padding: 25px;
-}
-
-.html, .css{
-    height: 150px;
-    padding: 10px;
-}
-
-.css:hover, .html:hover{
-    scale: calc(1.1);
-    transition: .7s;
-}
-
-/* SERVICES */
-/* .services{
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    padding: 20px;
-    height: fit-content
-}
-
-.services h2{
-    text-shadow: 2px 2px 5px cornflowerblue;
-    font-size: 60px;
-}
-
-.services-details{
-    margin-top: 50px;
-}
-
-.services-icon{
-    height: 100px;
-}
-
-.services-icon:hover{
-    scale: calc(1.1);
-    transition: .7s;
-}
-
-.servicesList{
-    list-style: none;
-} */
-
-/* GALERIA */
-/* .portfoliotittle{
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
-    padding: 10px;
-    background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
-    height: fit-content;
-}
-.galeria-items{
-    width: 100%;
-    background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
-    display: grid;
-    grid-template-rows: repeat(8, 200px);
-    grid-template-columns: 1fr;
-    grid-gap: 35px;
-    padding: 20px;
-}
-
-.item{
-    background-color: dark;
-    border: 2px solid black;
-    width: 100%;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 2px;
-}
-
-.item:hover{
-    transform: scale(1.1);
-    transition: all .7s;
-}
-
-.item1{
-    background-image: url(img/portfolio/1.gif);
-    background-size: cover;
-    background-position: center;
-}
-
-.item2{
-    background-image: url(img/portfolio/2.gif);
-    background-size: cover;
-    background-position: center;
-}
-
-.item3{
-    background-image: url(img/portfolio/3.gif);
-    background-size: cover;
-    background-position: center;
-}
-
-.item4{
-    background-image: url(img/portfolio/4.gif);
-    background-size: cover;
-    background-position: center;
-}
-
-.item5{
-    background-image: url(img/portfolio/5.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item6{
-    background-image: url(img/portfolio/6.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item7{
-    background-image: url(img/portfolio/7.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item8{
-    background-image: url(img/portfolio/8.jpg);
-    background-size: cover;
-    background-position: center;
-} */
-
-/* CONTACT */
-/* .contact{
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    height: fit-content;
-}
-
-.contact h2{
-    text-shadow: 2px 2px 5px cornflowerblue;
-    font-size: 50px;
-}
-
-.contact-icon{
-    height: 100px;
-}
-
-.contact-icon:hover{
-    scale: calc(1.1);
-    transition: .7s;
-}
-
-.contact-icons{
-    list-style: none;
-}
-
-.icons{
-    padding: 30px;
-}
-
-.icons a{
-    text-decoration: none;
-}  */
-
-/* @media only screen and (min-width:480px) and (max-width: 767px) {     
-    .principal{
-        grid-template-columns: 40% 60%;
-    }
-
-    .servicesList{
-        list-style: none;
-    }
-
-    .contact-icons{
-        list-style: none;
-    }
-    
-    .galeria-items{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width: 1279px) { 
-    section{
-        scroll-margin-top: 6rem;
-    }
-
-    .toggle{
-        display: none;
-    }
-
-    .barra{
-        display: inline-flex;
-    }
-
-    .principal{
-        display: grid;
-        grid-template-columns: 40% 60%;
-        height: fit-content;
-    }
-
-    .skills{
-        height: fit-content;
-    }
-
-    .services{
-        padding-top: 50px;
-        height: fit-content;
-    }
-
-    .servicesList{
-        padding-top: 80px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
-        list-style: none;
-    }
-
-        
-    .galeria-items{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(4, 250px);
-    }
-
-    .item1{
-        grid-column: 1/3;
-        grid-row: 1/3;
-    }
-
-    .item6{
-        grid-column: 3/4;
-        grid-row: 3/5;
-    }
-
-    .contact-icons{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        list-style: none;
-        padding: 40px;
-    }
-}
-
-@media only screen and (min-width:1280px){ 
-    section{
-        scroll-margin-top: 6rem;
-    }
-
-    .toggle{
-        display: none;
-    }
-
-    .principal{
-        align-items: center;
-    }
-
-    .skills{
-        align-items: center;
-        
-    }
-
-    .services{
-        padding-top: 50px;
-        height: fit-content;
-        height: 100vh;
-    }
-
-    .servicesList{
-        padding-top: 80px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 30px;
-        list-style: none;
-    }
-
-    .barra{
-        display: inline-flex;
-    }
-
-    .principal{
-        display: grid;
-        grid-template-columns: 40% 60%;
-        margin-bottom: 10px;
-        height: 100vh;
-    }
-
-    .galeria{
-        padding-top: 40px;
-        height: fit-content;
-
-    }
-        
-    .galeria-items{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 300px);
-    }
-
-    .item1{
-        grid-column: 1/3;
-        grid-row: 1/3;
-    }
-
-    .item4{
-        grid-column: 3/5;
-        grid-row: 2/4;
-    }
-
-    .item7{
-        grid-column: 1/3;
-        grid-row: 4/5;
-    }
-
-    .item8{
-        grid-column: 3/5;
-        grid-row: 4/5;
-    }
-
-    .contact{
-        padding-top: 50px;
-    }
-
-    .contact-icons{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        list-style: none;
-        padding: 40px;
-    }
 } */
