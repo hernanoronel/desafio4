@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,199 +11,205 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-image: url(./img/fondo3.jpg);
+body {
+    background-image: url(./img/fondo4.jpg);
     background-position: center;
     background-size: cover;
 }
 
 /* HEADER */
-header{
+header {
+    z-index: 10;
     position: fixed;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 40px;
     color: white;
     font-weight: bold;
 }
 
-.navbar-nav{
-    font-size: 25px;
-    float: right;
+.navbar-nav {
+    font-size: 20px;
 }
 
 /* MAIN */
-.fotoperfil{
+.fotoperfil {
     text-align: center;
     padding-top: 120px;
-
 }
 
-.rounded-circle{
+.rounded-circle {
     max-width: 250px;
     box-shadow: 2px 2px 10px black;
 }
 
-.principal h1{
+.principal h1 {
     font-size: 4rem;
     color: red;
     text-shadow: 1px 1px 4px black;
 }
 
-.principal p{
+.principal p {
     color: white;
     text-shadow: 1px 1px 4px black;
 }
 
-.frase{
+.frase {
     font-size: 1.2rem;
     color: white;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: transparent;
     font-size: 2rem;
     text-align: center;
 }
 
-.btn{
-    font-size: 1.5rem;
+.btn {
+    font-size: 1rem;
     padding: 20px;
     margin-top: 30px;
     box-shadow: 1px 1px 4px black;
 }
 
-.descarga{
+.descarga {
     color: white;
 }
 
 /* SKILLS */
-.skills-main{
+.skills-main {
     text-align: center;
     font-size: 80%;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
-.skills-tittle h2{
+.skills-tittle h2 {
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 3px black;
 }
 
-.skills-tittle p{
+.skills-tittle p {
     font-size: 30px;
     color: white;
 }
 
-.skills{
+.skills {
     margin-top: 50px;
     padding: 30px;
 }
 
-.skill-logo{
+.skill-logo {
     max-width: 150px;
 }
 
-.skills-item p{
+.skills-item p {
     font-size: 20px;
     color: white;
 }
 
 /* SERVICES */
-.services-main{
+.services-main {
     text-align: center;
-    font-size: 80%;;
+    font-size: 80%;
+    ;
     padding: 20px;
 }
 
-.services-tittle h2{
+.services-tittle h2 {
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 3px black;
 }
 
-.services-tittle p{
+.services-tittle p {
     font-size: 30px;
     color: white;
 }
 
-.services-list{
+.services-list {
     padding: 50px;
 }
 
-.services-icon{
+.services-icon {
     max-width: 150px;
     padding: 20px;
 }
 
-.services-logo h3{
+.services-logo h3 {
     font-size: 30px;
     color: white;
     text-shadow: 1px 1px 3px black;
 }
 
-.services-logo p{
+.services-logo p {
     color: white;
     font-size: 20px;
 }
 
 /* PORTFOLIO */
-.portfolio-main{
+.portfolio-main {
     text-align: center;
     font-size: 80%;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
-.portfolio-main h2{
+.portfolio-main h2 {
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 3px black;
 }
 
-.portfolio-main p{
+.portfolio-main p {
     font-size: 30px;
     color: white;
 }
 
-.carousel-inner{
+.carousel-inner {
     padding-top: 20px;
 }
 
-.portfolio-img{
-    width: 70%;
+.portfolio-img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* CONTACT */
-.contact{
+.contact {
     text-align: center;
     font-size: 80%;
     padding: 20px;
 }
-.contact h2{
-    font-size: 2.5em;
-    text-shadow: 1px 1px 3px white;
+
+.contact h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
-.contact p{
-    font-size: 25px;
-}
-.contact-icon{
-    max-width: 150px;
+.contact p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
 }
 
-.col p{
+.contact-icon {
+    max-width: 100px;
+}
+
+.col p {
     color: white;
     font-size: 25px;
     text-shadow: 1px 1px 4px black;
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: rgba(0, 0, 0, 0.345);
     color: white;
     font-size: 25px;
@@ -212,7 +218,7 @@ footer{
     width: 100%;
 }
 
-footer i{
+footer i {
     letter-spacing: 20px;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -231,4 +237,16 @@ footer i{
     line-height: 50px;
     border-radius: 50%;
     border-color: black;
-} */
+}
+
+.fa-chevron-up:before {
+    color: white;
+}
+
+
+@media only screen and (min-width: 767px){
+    .navbar-collapse{
+        justify-content: center;
+    }
+    
+}
